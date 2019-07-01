@@ -120,6 +120,10 @@
         "source": "/Users/michellecxu/.gradle/caches/transforms-2/files-2.1/db364e0f51114050bdf303334a7f1cfb/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
+        "merged": "/Users/michellecxu/Downloads/MySimpleTweets/app/build/intermediates/res/merged/debug/layout_activity_timeline.xml.flat",
+        "source": "/Users/michellecxu/Downloads/MySimpleTweets/app/src/main/res/layout/activity_timeline.xml"
+    },
+    {
         "merged": "/Users/michellecxu/Downloads/MySimpleTweets/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
         "source": "/Users/michellecxu/Downloads/MySimpleTweets/app/src/main/res/drawable-mdpi/ic_launcher.png"
     },
