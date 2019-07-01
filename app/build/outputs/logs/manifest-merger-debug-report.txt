@@ -1,0 +1,202 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:2:1-39:12
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/698bad331a19bb6d2174e9cdfdfc7ed0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/16076d25fadd19c122e66638941e3c32/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/e13fd60e7c90b282f077db278bae5c18/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/8e6a73eadbada87ba11fbb0ab686969b/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/007676bf36a50784ba3a5ed1811322f2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/7665e578f38960afb5615445c88f11d2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/9c5db1e434c6622392c6e990af1c5400/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/9def4f9cd37a01e7c85e631af12e20f7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/05e63620637e9edeaecd0430f05f9a2a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/8c215606e69fb91559ad3c2bf59a2610/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/a79e89e6c9eacdb37c317e67e8a35f7d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/5678dce93f5d9d91388bbe1284024e16/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/f893092fb82d4729ef7ea5d392222498/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/426086bebf25bc5b1da13f2bad7988af/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/12f3b45be7b180bdbae8e7ff06e86cbb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/94cc659792d2aad3dbd7abdf21821a06/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/e336c40460b9ae40676ed5100b31edf1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/1ab1b9a496116f50203ad666b8b5dc95/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/d4a2ead4889ec2474e05b24d470f3884/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/db364e0f51114050bdf303334a7f1cfb/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/5d9a799c7631ea4b9e5983c6f75e492b/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/7c8ea3785b9cff1d032192842e3039da/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/233dfe42b9e02b3d33eb3c5146224624/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/8c9a0e211df9abdc2abde6144b611082/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/005e76ed3204db606adede734089fdda/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/f0a941cff6049700500441920fa10add/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/b6c8dabd7876233f29ecf8fba3669240/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/d26f8e826b74c4e7520b6868d08ecfee/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/736864657dbb24374334edbed4755c4a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/20b66b83aff496f1b151d24a2537cf3b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/11ec45d23373bca39a2da07ac9ef3233/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/6188d7ceee8d45cc9ec609aa5d70f0b9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/5f41f8ccab92166e04ecb9dafc1eb91d/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:8:22-78
+application
+ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:10:5-37:19
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/8e6a73eadbada87ba11fbb0ab686969b/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/8e6a73eadbada87ba11fbb0ab686969b/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/db364e0f51114050bdf303334a7f1cfb/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/db364e0f51114050bdf303334a7f1cfb/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/5d9a799c7631ea4b9e5983c6f75e492b/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/5d9a799c7631ea4b9e5983c6f75e492b/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/db364e0f51114050bdf303334a7f1cfb/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:13:9-45
+	android:allowBackup
+		ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:15:9-40
+	android:name
+		ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:11:9-35
+activity#com.codepath.apps.restclienttemplate.LoginActivity
+ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:17:9-36:20
+	android:label
+		ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:20:13-45
+	android:theme
+		ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:19:13-44
+	android:name
+		ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:18:13-78
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:24:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/intent_host+data:scheme:@string/intent_scheme
+ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:26:13-35:29
+action#android.intent.action.VIEW
+ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:29:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:30:17-78
+	android:name
+		ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:30:27-75
+data
+ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:32:17-34:62
+	android:host
+		ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:33:21-55
+	android:scheme
+		ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml:34:21-59
+uses-sdk
+INJECTED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml
+INJECTED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/698bad331a19bb6d2174e9cdfdfc7ed0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/698bad331a19bb6d2174e9cdfdfc7ed0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/16076d25fadd19c122e66638941e3c32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/16076d25fadd19c122e66638941e3c32/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/e13fd60e7c90b282f077db278bae5c18/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/e13fd60e7c90b282f077db278bae5c18/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/8e6a73eadbada87ba11fbb0ab686969b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/8e6a73eadbada87ba11fbb0ab686969b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/007676bf36a50784ba3a5ed1811322f2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/007676bf36a50784ba3a5ed1811322f2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/7665e578f38960afb5615445c88f11d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/7665e578f38960afb5615445c88f11d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/9c5db1e434c6622392c6e990af1c5400/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/9c5db1e434c6622392c6e990af1c5400/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/9def4f9cd37a01e7c85e631af12e20f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/9def4f9cd37a01e7c85e631af12e20f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/05e63620637e9edeaecd0430f05f9a2a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/05e63620637e9edeaecd0430f05f9a2a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/8c215606e69fb91559ad3c2bf59a2610/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/8c215606e69fb91559ad3c2bf59a2610/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/a79e89e6c9eacdb37c317e67e8a35f7d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/a79e89e6c9eacdb37c317e67e8a35f7d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/5678dce93f5d9d91388bbe1284024e16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/5678dce93f5d9d91388bbe1284024e16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/f893092fb82d4729ef7ea5d392222498/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/f893092fb82d4729ef7ea5d392222498/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/426086bebf25bc5b1da13f2bad7988af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/426086bebf25bc5b1da13f2bad7988af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/12f3b45be7b180bdbae8e7ff06e86cbb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/12f3b45be7b180bdbae8e7ff06e86cbb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/94cc659792d2aad3dbd7abdf21821a06/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/94cc659792d2aad3dbd7abdf21821a06/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/e336c40460b9ae40676ed5100b31edf1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/e336c40460b9ae40676ed5100b31edf1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/1ab1b9a496116f50203ad666b8b5dc95/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/1ab1b9a496116f50203ad666b8b5dc95/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/d4a2ead4889ec2474e05b24d470f3884/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/d4a2ead4889ec2474e05b24d470f3884/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/db364e0f51114050bdf303334a7f1cfb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/db364e0f51114050bdf303334a7f1cfb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/5d9a799c7631ea4b9e5983c6f75e492b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/5d9a799c7631ea4b9e5983c6f75e492b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/7c8ea3785b9cff1d032192842e3039da/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/7c8ea3785b9cff1d032192842e3039da/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/233dfe42b9e02b3d33eb3c5146224624/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/233dfe42b9e02b3d33eb3c5146224624/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/8c9a0e211df9abdc2abde6144b611082/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/8c9a0e211df9abdc2abde6144b611082/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/005e76ed3204db606adede734089fdda/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/005e76ed3204db606adede734089fdda/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/f0a941cff6049700500441920fa10add/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/f0a941cff6049700500441920fa10add/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/b6c8dabd7876233f29ecf8fba3669240/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/b6c8dabd7876233f29ecf8fba3669240/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/d26f8e826b74c4e7520b6868d08ecfee/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/d26f8e826b74c4e7520b6868d08ecfee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/736864657dbb24374334edbed4755c4a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/736864657dbb24374334edbed4755c4a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/20b66b83aff496f1b151d24a2537cf3b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/20b66b83aff496f1b151d24a2537cf3b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/11ec45d23373bca39a2da07ac9ef3233/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/11ec45d23373bca39a2da07ac9ef3233/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/6188d7ceee8d45cc9ec609aa5d70f0b9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/6188d7ceee8d45cc9ec609aa5d70f0b9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/5f41f8ccab92166e04ecb9dafc1eb91d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/5f41f8ccab92166e04ecb9dafc1eb91d/AndroidManifest.xml:20:5-44
+INJECTED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml
+INJECTED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml
+		ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml
+		ADDED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/michellecxu/Downloads/MySimpleTweets/app/src/main/AndroidManifest.xml
