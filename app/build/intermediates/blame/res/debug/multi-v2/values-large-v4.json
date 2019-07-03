@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/michellecxu/Downloads/MySimpleTweets/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "outputFile": "/Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
             "map": [
                 {
                     "source": "/Users/michellecxu/.gradle/caches/transforms-2/files-2.1/16076d25fadd19c122e66638941e3c32/res/values-large-v4/values-large-v4.xml",

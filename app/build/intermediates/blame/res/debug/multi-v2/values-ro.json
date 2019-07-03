@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/michellecxu/Downloads/MySimpleTweets/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml",
+            "outputFile": "/Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml",
             "map": [
                 {
                     "source": "/Users/michellecxu/.gradle/caches/transforms-2/files-2.1/db364e0f51114050bdf303334a7f1cfb/res/values-ro/values-ro.xml",
