@@ -1,4 +1,4 @@
-#Mon Jul 01 15:24:16 PDT 2019
-base.0=/Users/michellecxu/Downloads/MySimpleTweets/app/build/intermediates/dex/debug/mergeDexDebug/out
+#Wed Jul 03 16:21:28 PDT 2019
+base.0=/Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/build/intermediates/dex/debug/mergeDexDebug/out
 path.0=classes.dex
 renamed.0=classes.dex
