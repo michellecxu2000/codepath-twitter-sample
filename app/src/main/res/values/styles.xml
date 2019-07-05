@@ -11,14 +11,8 @@
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:background">@color/twitter_blue</item>
     </style>
-
-    <item name="TwitterColors">
-
-        <color name="twitter_blue">#ff1da1f2</color>
-        <color name="medium_gray">#ffaab8c2</color>
-
-    </item>
 
 </resources>
 

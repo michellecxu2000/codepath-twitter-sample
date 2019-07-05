@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@color/inline_action"
     tools:context=".ComposeActivity">
 
     <EditText
@@ -16,6 +17,8 @@
         android:layout_marginBottom="8dp"
         android:ems="10"
         android:hint="What's happening?"
+        android:textColorHint="@color/twitter_blue"
+        android:background="@android:color/white"
         android:inputType="textMultiLine|text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnSend"
@@ -29,8 +32,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
+        android:background="@color/twitter_blue"
         android:onClick="onSubmit"
-        android:text="@string/btnSend"
+        android:text="Tweet"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -43,6 +48,8 @@
         android:layout_marginStart="200dp"
         android:layout_marginTop="6dp"
         android:text="0/280"
+        android:textColor="@color/twitter_blue"
+        android:background="@color/inline_action"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnSend"
         app:layout_constraintStart_toStartOf="parent"

@@ -32,6 +32,12 @@ public class ComposeActivity extends AppCompatActivity {
         client = new TwitterClient(this);
 
         etName.addTextChangedListener(mTextEditorWatcher);
+        Intent intent = getIntent();
+        String reply = intent.getStringExtra("username");
+        if(reply != null){
+            etName.setText("@" + reply);
+        }
+
     }
 
     public void onSubmit(View v) {
@@ -56,9 +62,9 @@ public class ComposeActivity extends AppCompatActivity {
                 super.onFailure(statusCode, headers, throwable, errorResponse);
             }
         });
-        //finish(); // closes the activity, pass data to parent
     }
 
+    //this is to count the number of words the user has used when composing a tweet
     private final TextWatcher mTextEditorWatcher = new TextWatcher() {
 
         @Override

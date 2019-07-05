@@ -1,17 +1,21 @@
 package com.codepath.apps.restclienttemplate;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.text.format.DateUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.codepath.apps.restclienttemplate.models.Tweet;
+
+import org.parceler.Parcels;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -43,7 +47,13 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{
     @Override
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
         //get the data according to position
-        Tweet tweet = mTweets.get(i);
+        final Tweet tweet = mTweets.get(i);
+        viewHolder.fabReply.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onReply(tweet);
+            }
+        });
         //populate the views according to this data
         viewHolder.tvUsername.setText(tweet.user.name);
         viewHolder.tvBody.setText(tweet.body);
@@ -58,11 +68,12 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{
 
     //create ViewHolder class
 
-    public static class ViewHolder extends RecyclerView.ViewHolder{
+    public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
         public ImageView ivProfileImage;
         public TextView tvUsername;
         public TextView tvBody;
         public TextView tvTimePosted;
+        public Button fabReply;
 
         public ViewHolder(View itemView){
             super(itemView);
@@ -73,6 +84,23 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{
             tvUsername = (TextView) itemView.findViewById(R.id.tvUserName);
             tvBody = (TextView) itemView.findViewById(R.id.tvBody);
             tvTimePosted = (TextView) itemView.findViewById(R.id.tvTimePosted);
+            fabReply = (Button) itemView.findViewById(R.id.btnReply);
+
+            itemView.setOnClickListener(this);
+        }
+
+        @Override
+        public void onClick(View v) {
+            int position = getAdapterPosition(); //gets item position
+            //need to make sure the position is valid
+            if(position != RecyclerView.NO_POSITION){
+                //get the Tweet at that position
+                Tweet tweet = mTweets.get(position);
+                //create an intent
+                Intent intent = new Intent(context, DetailActivity.class);
+                intent.putExtra(Tweet.class.getSimpleName(), Parcels.wrap(tweet));
+                context.startActivity(intent);
+            }
         }
     }
 
@@ -104,4 +132,15 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{
         mTweets.addAll(list);
         notifyDataSetChanged();
     }
+
+    //should be in TweetAdapter because you need to know where you're clicking, adapter can give you that information
+    //TimelineActivity doesn't tell you where you are clicking because RecyclerView doesn't have that information
+    //compose was okay to have in TimelineActivity because it's not part of the view, it's part of the menu
+    public void onReply(Tweet tweet){
+        Intent intent = new Intent(context, ComposeActivity.class);
+        intent.putExtra("username", tweet.user.name);
+        context.startActivity(intent);
+    }
+
+    //details - when you click on a tweet, pops up a page with just that tweet
 }

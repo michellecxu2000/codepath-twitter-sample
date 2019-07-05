@@ -27,10 +27,10 @@ public class TimelineActivity extends AppCompatActivity {
     TweetAdapter tweetAdapter;
     ArrayList<Tweet> tweets;
     RecyclerView rvTweets;
-
     private final int REQUEST_CODE = 20;
-
     private SwipeRefreshLayout swipeContainer;
+    private EndlessRecyclerViewScrollListener scrollListener;
+    long maxId=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,18 +45,21 @@ public class TimelineActivity extends AppCompatActivity {
         tweets = new ArrayList<>();
         //construct the adapter from the data source
         tweetAdapter = new TweetAdapter(tweets);
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         //RecyclerView setup (layout manager, use adapter)
-        rvTweets.setLayoutManager(new LinearLayoutManager(this));
+        rvTweets.setLayoutManager(linearLayoutManager);
         //set the adapter
         rvTweets.setAdapter(tweetAdapter);
-        populateTimeline();
+
 
         swipeContainer = (SwipeRefreshLayout) findViewById(R.id.swipeContainer);
         swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener(){
 
             @Override
             public void onRefresh() {
-                populateTimeline();
+                tweetAdapter.clear();
+                tweets.clear();
+                populateTimeline(maxId);
             }
         });
 
@@ -65,9 +68,29 @@ public class TimelineActivity extends AppCompatActivity {
                 android.R.color.holo_orange_light,
                 android.R.color.holo_red_light);
 
+        scrollListener = new EndlessRecyclerViewScrollListener(linearLayoutManager) {
+            @Override
+            public void onLoadMore(int page, int totalItemsCount, RecyclerView view) {
+                // Triggered only when new data needs to be appended to the list
+                // Add whatever code is needed to append new items to the bottom of the list
+                loadNextDataFromApi(page);
+            }
+        };
+        // Adds the scroll listener to RecyclerView
+        rvTweets.addOnScrollListener(scrollListener);
 
+    } //end of onCreate
 
+    public void loadNextDataFromApi(int offset) {
+        maxId=tweets.get(tweets.size()-1).uid; //will get the id of the last tweet
+        populateTimeline(maxId);
+        // Send an API request to retrieve appropriate paginated data
+        //  --> Send the request including an offset value (i.e `page`) as a query parameter.
+        //  --> Deserialize and construct new model objects from the API response
+        //  --> Append the new data objects to the existing set of items inside the array of items
+        //  --> Notify the adapter of the new items made with `notifyItemRangeInserted()`
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -79,6 +102,8 @@ public class TimelineActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ComposeActivity.class);
         startActivityForResult(intent, REQUEST_CODE);
     }
+
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -94,8 +119,9 @@ public class TimelineActivity extends AppCompatActivity {
     }
 
 
-    private void populateTimeline(){
-        client.getHomeTimeline(new JsonHttpResponseHandler(){
+    private void populateTimeline(long maxId){
+        showProgressBar();
+        client.getHomeTimeline(maxId, new JsonHttpResponseHandler(){
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
                 Log.d("TwitterClient", response.toString());
@@ -106,7 +132,7 @@ public class TimelineActivity extends AppCompatActivity {
                 Log.d("TwitterClient", response.toString());
                 //iterate through the JSON array
                 //for each entry, deserialize the JSON object
-                tweetAdapter.clear();
+
                 for(int i = 0; i < response.length(); i++){
                     //convert each object to a Tweet model
                     //add that Tweet model to our data source
@@ -123,31 +149,54 @@ public class TimelineActivity extends AppCompatActivity {
                 }
                 swipeContainer.setRefreshing(false);
 
+                hideProgressBar(); //we put hideProgressBar at the end of onSuccess and not at the end of the whole thing because otherwise it's only going to show for a little bit before disappearing
+
             }
 
             @Override
             public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
                 Log.d("TwitterClient", responseString);
                 throwable.printStackTrace();
+                hideProgressBar();
             }
 
             @Override
             public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONArray errorResponse) {
                 Log.d("TwitterClient", errorResponse.toString());
                 throwable.printStackTrace();
+                hideProgressBar();
             }
 
             @Override
             public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
                 Log.d("TwitterClient", errorResponse.toString());
                 throwable.printStackTrace();
+                hideProgressBar();
             }
         });
     }
 
+    //Instance of the progress action-view
+    MenuItem miActionProgressItem;
 
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        // Store instance of the menu item containing progress
+        miActionProgressItem = menu.findItem(R.id.miActionProgress);
+        populateTimeline(maxId);
+        // Return to finish
+        return super.onPrepareOptionsMenu(menu);
+    }
+    //we want to show progress bar when you are populating the timeline, go to populate timeline function
+    public void showProgressBar() {
+        // Show progress item
+        miActionProgressItem.setVisible(true);
+    }
 
-
-
-
+    public void hideProgressBar() {
+        // Hide progress item
+        miActionProgressItem.setVisible(false);
+    }
 }
+
+

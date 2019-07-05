@@ -1,10 +1,11 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:2:1-41:12
+ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:2:1-42:12
 MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/698bad331a19bb6d2174e9cdfdfc7ed0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/f68a988941800798c065a92083bed688/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/16076d25fadd19c122e66638941e3c32/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/e13fd60e7c90b282f077db278bae5c18/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/50b5d881aa505e0b4489dcaeb90c2f5f/AndroidManifest.xml:2:1-11:12
@@ -16,6 +17,7 @@ MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/michell
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/9def4f9cd37a01e7c85e631af12e20f7/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/05e63620637e9edeaecd0430f05f9a2a/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/8c215606e69fb91559ad3c2bf59a2610/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/f390973daa7ee94c31dad49c87428184/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/a79e89e6c9eacdb37c317e67e8a35f7d/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:loader:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/5678dce93f5d9d91388bbe1284024e16/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:viewpager:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/f893092fb82d4729ef7ea5d392222498/AndroidManifest.xml:17:1-22:12
@@ -33,15 +35,16 @@ MERGED from [android.arch.persistence:db:1.1.1] /Users/michellecxu/.gradle/cache
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/005e76ed3204db606adede734089fdda/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/f0a941cff6049700500441920fa10add/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/b6c8dabd7876233f29ecf8fba3669240/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/4104db491081c5f65d5fe8b3840bcf93/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/d26f8e826b74c4e7520b6868d08ecfee/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:documentfile:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/736864657dbb24374334edbed4755c4a/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/20b66b83aff496f1b151d24a2537cf3b/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:print:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/11ec45d23373bca39a2da07ac9ef3233/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/6188d7ceee8d45cc9ec609aa5d70f0b9/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/5f41f8ccab92166e04ecb9dafc1eb91d/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:2:1-42:12
 	package
 		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:3:5-51
 		INJECTED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml
@@ -65,7 +68,9 @@ ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twi
 	android:name
 		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:8:22-78
 application
-ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:10:5-39:19
+ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:10:5-40:19
+MERGED from [com.android.support:design:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/f68a988941800798c065a92083bed688/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/f68a988941800798c065a92083bed688/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/50b5d881aa505e0b4489dcaeb90c2f5f/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/50b5d881aa505e0b4489dcaeb90c2f5f/AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/8e6a73eadbada87ba11fbb0ab686969b/AndroidManifest.xml:11:5-20
@@ -88,58 +93,64 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/michellecxu/
 		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:16:9-44
 	android:name
 		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:11:9-35
+activity#com.codepath.apps.restclienttemplate.DetailActivity
+ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:17:9-61
+	android:name
+		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:17:19-49
 activity#com.codepath.apps.restclienttemplate.ComposeActivity
-ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:17:9-62
+ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:18:9-53
 	android:name
-		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:17:19-50
+		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:18:19-50
 activity#com.codepath.apps.restclienttemplate.TimelineActivity
-ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:18:9-54
+ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:19:9-54
 	android:name
-		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:18:19-51
+		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:19:19-51
 activity#com.codepath.apps.restclienttemplate.LoginActivity
-ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:19:9-38:20
+ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:20:9-39:20
 	android:label
-		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:21:13-45
+		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:22:13-45
 	android:theme
-		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:22:13-44
+		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:23:13-44
 	android:name
-		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:20:13-42
+		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:21:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:23:13-27:29
+ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:24:17-69
+ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:24:25-66
+		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:26:17-77
+ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:26:27-74
+		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:27:27-74
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/intent_host+data:scheme:@string/intent_scheme
-ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:28:13-37:29
+ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:29:13-38:29
 action#android.intent.action.VIEW
-ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:29:17-69
+ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:29:25-66
+		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:30:25-66
 category#android.intent.category.DEFAULT
-ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:31:17-76
+ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:32:17-76
 	android:name
-		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:31:27-73
+		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:32:27-73
 category#android.intent.category.BROWSABLE
-ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:32:17-78
+ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:33:17-78
 	android:name
-		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:32:27-75
+		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:33:27-75
 data
-ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:34:17-36:62
+ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:35:17-37:62
 	android:host
-		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:35:21-55
+		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:36:21-55
 	android:scheme
-		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:36:21-59
+		ADDED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml:37:21-59
 uses-sdk
 INJECTED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml
 INJECTED from /Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/src/main/AndroidManifest.xml
 MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/698bad331a19bb6d2174e9cdfdfc7ed0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/698bad331a19bb6d2174e9cdfdfc7ed0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/f68a988941800798c065a92083bed688/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/f68a988941800798c065a92083bed688/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/16076d25fadd19c122e66638941e3c32/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/16076d25fadd19c122e66638941e3c32/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/e13fd60e7c90b282f077db278bae5c18/AndroidManifest.xml:20:5-44
@@ -162,6 +173,8 @@ MERGED from [com.android.support:support-core-utils:28.0.0] /Users/michellecxu/.
 MERGED from [com.android.support:support-core-utils:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/05e63620637e9edeaecd0430f05f9a2a/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/8c215606e69fb91559ad3c2bf59a2610/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/8c215606e69fb91559ad3c2bf59a2610/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/f390973daa7ee94c31dad49c87428184/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/f390973daa7ee94c31dad49c87428184/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/a79e89e6c9eacdb37c317e67e8a35f7d/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/a79e89e6c9eacdb37c317e67e8a35f7d/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:loader:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/5678dce93f5d9d91388bbe1284024e16/AndroidManifest.xml:20:5-44
@@ -196,6 +209,8 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/michellecxu/.gra
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/f0a941cff6049700500441920fa10add/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/b6c8dabd7876233f29ecf8fba3669240/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/b6c8dabd7876233f29ecf8fba3669240/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/4104db491081c5f65d5fe8b3840bcf93/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/4104db491081c5f65d5fe8b3840bcf93/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/d26f8e826b74c4e7520b6868d08ecfee/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/d26f8e826b74c4e7520b6868d08ecfee/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:documentfile:28.0.0] /Users/michellecxu/.gradle/caches/transforms-2/files-2.1/736864657dbb24374334edbed4755c4a/AndroidManifest.xml:20:5-44

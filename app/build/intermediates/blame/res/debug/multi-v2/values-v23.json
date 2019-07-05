@@ -4,6 +4,25 @@
             "outputFile": "/Users/michellecxu/Desktop/AndroidStudioProjects/Twitter/codepath-twitter-sample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
+                    "source": "/Users/michellecxu/.gradle/caches/transforms-2/files-2.1/4104db491081c5f65d5fe8b3840bcf93/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "2646",
+                        "endLines": "39",
+                        "endColumns": "12",
+                        "endOffsets": "2791"
+                    }
+                },
+                {
                     "source": "/Users/michellecxu/.gradle/caches/transforms-2/files-2.1/16076d25fadd19c122e66638941e3c32/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
